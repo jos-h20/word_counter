@@ -90,6 +90,17 @@
             //Assert
             $this->assertEquals(0, $result);
         }
+        function test_oneWordSameCaps()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $word_searched = "Ab";
+            $string_searched = "bA DA aB";
+            //Act
+            $result = $test_RepeatCounter->countRepeats($word_searched,$string_searched);
+            //Assert
+            $this->assertEquals(0, $result);
+        }
 
     }
     // Run in terminal in project folder
