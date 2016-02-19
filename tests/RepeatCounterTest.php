@@ -46,6 +46,17 @@
             //Assert
             $this->assertEquals(1, $result);
         }
+        function test_oneWordSame()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $word_searched = "ab";
+            $string_searched = "ab";
+            //Act
+            $result = $test_RepeatCounter->countRepeats($word_searched,$string_searched);
+            //Assert
+            $this->assertEquals(0, $result);
+        }
 
     }
     // Run in terminal in project folder
