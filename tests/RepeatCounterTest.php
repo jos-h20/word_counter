@@ -79,6 +79,17 @@
             //Assert
             $this->assertEquals(2, $result);
         }
+        function test_threeWordsDifferent()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $word_searched = "ab";
+            $string_searched = "ba da ca";
+            //Act
+            $result = $test_RepeatCounter->countRepeats($word_searched,$string_searched);
+            //Assert
+            $this->assertEquals(2, $result);
+        }
 
     }
     // Run in terminal in project folder
