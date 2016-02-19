@@ -99,7 +99,7 @@
             //Act
             $result = $test_RepeatCounter->countRepeats($word_searched,$string_searched);
             //Assert
-            $this->assertEquals(0, $result);
+            $this->assertEquals(1, $result);
         }
 
     }
