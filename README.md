@@ -11,15 +11,15 @@ Users can type in a word or phrase. They can then enter a single word, and the a
 ## Setup/Installation Requirements
 
 * _Open the terminal on your computer
-Go to link: https://github.com/jos-h20/word_counter.
-Copy it.
-In your terminal, change your directory to desktop, type "git clone" and paste the link in.
-The folder word_counter will download on your desktop.
-Change your directory to word_counter.
-Type in "composer install" in that folder.
-Open web folder inside word_counter in your terminal.
-Start your PHP server by typing in "php -S localhost:8000".
-Open your web browser and type in "localhost:8000"._
+* Go to link: https://github.com/jos-h20/word_counter.
+* Copy it.
+* In your terminal, change your directory to desktop, type "git clone" and paste the link in.
+* The folder word_counter will download on your desktop.
+* Change your directory to word_counter.
+* Type in "composer install" in that folder.
+* Open web folder inside word_counter in your terminal.
+* Start your PHP server by typing in "php -S localhost:8000".
+* Open your web browser and type in "localhost:8000"._
 
 
 ## Known Bugs
