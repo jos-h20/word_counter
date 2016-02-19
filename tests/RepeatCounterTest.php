@@ -57,17 +57,17 @@
             //Assert
             $this->assertEquals(1, $result);
         }
-        // function test_oneWordDifferent()
-        // {
-        //     //Arrange
-        //     $test_RepeatCounter = new RepeatCounter;
-        //     $word_searched = "ab";
-        //     $string_searched = "ba";
-        //     //Act
-        //     $result = $test_RepeatCounter->countRepeats($word_searched,$string_searched);
-        //     //Assert
-        //     $this->assertEquals(1, $result);
-        // }
+        function test_oneWordDifferent()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $word_searched = "ab";
+            $string_searched = "ba";
+            //Act
+            $result = $test_RepeatCounter->countRepeats($word_searched,$string_searched);
+            //Assert
+            $this->assertEquals(1, $result);
+        }
 
     }
     // Run in terminal in project folder
