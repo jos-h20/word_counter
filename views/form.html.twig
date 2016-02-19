@@ -6,24 +6,19 @@
         <link rel="stylesheet" href="css/styles.css">
         <title>Count Repeats</title>
     </head>
-
-        <body>
-
+    <body>
         <div class='jumbotron'>
-          <h1>Count Repeats</h1>
-          <p><em>Write a sentence and see how many times<br> a word you choose shows up.</em></p>
+            <div class="bg">
+                <h1>Count Repeats</h1>
+                <p><em>Write a sentence and see how many times<br> a word you choose shows up.</em></p>
+            </div>
         </div>
-          <div class='container'>
-<!-- /JUMBOTRON -->
-
-        <!-- Row: 1 -->
+        <div class='container'>
             <div class='row'>
-              <div class="col-sm-2">
-
-              </div>
-              <div class='col-sm-8 input'>
-                  <!-- <h2>Enter a word you want to search.</h2> -->
-                  <div class="form">
+                <div class="col-sm-2">
+                </div>
+            <div class='col-sm-8 input'>
+                <div class="form">
                   <form action='/userInput'>
                       <div class='form-group string'>
                         <label for='string'>Enter a sentence or phrase with only spaces in between:</label>
@@ -33,13 +28,13 @@
                         <label for='word'>Enter a word you want searched:</label>
                         <input id='word' name='word' type='text'>
                      </div>
-                 </div>
+                </div>
                       <button class='btn btn-default' type='submit'>Enter your word!</button>
                 </form>
             </div>
             <div class="col-sm-2">
-
-            </div>  <!-- /col-sm-6 -->
-          </div>  <!-- /Row -->
+            </div>
+          </div>
+        </div>
     </body>
 </html>

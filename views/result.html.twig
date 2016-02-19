@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
         <title>Your Result</title>
     </head>
     <body>
-        <div class='jumbotron' id="bg">
+        <div class='jumbotron'>
             <h1>Your Result</h1>
             <p><em>Here's the number of matches you got.</em></p>
-
-         </div>
+        </div>
         <div class='container'>
-
             <div class="row">
-                <div class="col-sm-4 result">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-8">
+                    <h3 class="word_display">Your Word:  <strong>"{{ word }}"</strong></h3>
+                <div class="result">
                     <p>Count:</p>
+                    <div class="number">
+                        <p><a href="/">{{ results }}</a></p>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <h3 class="word_display">Your Word:  <strong>{{ word }}</strong></h3>
-
-
-                <div class="number">
-                    <p><a href="/">{{ results }}</a></p>
+                <div class="col-sm-2">
                 </div>
-                </div>
-
-                <div class="col-sm-4">
-
                 </div>
             </div>
         </div>
