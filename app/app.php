@@ -23,7 +23,8 @@
 
         return $app['twig']->render('result.html.twig', array(
             'results' => $results,
-            'word' => $input_word
+            'word' => $input_word,
+            'string' => $input_string
         ));
     });
     return $app;

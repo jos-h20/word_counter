@@ -15,6 +15,7 @@
             <div class="row">
                 <div class="col-sm-2">
                 </div>
+                {% if word and string is not empty %}
                 <div class="col-sm-8">
                     <h3 class="word_display">Your Word:  <strong>"{{ word }}"</strong></h3>
                 <div class="result">
@@ -26,6 +27,9 @@
                 <div class="col-sm-2">
                 </div>
                 </div>
+                {% else %}
+                <p class="result">Fill out both forms! <a href="/">Back</a></p>
+                {% endif %}
             </div>
         </div>
         <div class="navbar navbar-fixed-bottom" role="navigation">
@@ -34,6 +38,6 @@
                     <p>© 2016 Josh Overly.</p>
                 </div>
             </div>
-        </div>        
+        </div>
     </body>
 </html>
