@@ -35,6 +35,17 @@
             //Assert
             $this->assertEquals(2, $result);
         }
+        function test_twoLettersDifferent()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $word_searched = "a";
+            $string_searched = "a b";
+            //Act
+            $result = $test_RepeatCounter->countRepeats($word_searched,$string_searched);
+            //Assert
+            $this->assertEquals(2, $result);
+        }
 
     }
     // Run in terminal in project folder
