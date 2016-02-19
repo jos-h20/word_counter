@@ -103,7 +103,5 @@
         }
 
     }
-    // Run in terminal in project folder
-    // export PATH=$PATH:./vendor/bin
-    // phpunit tests
+
 ?>

@@ -1,26 +1,44 @@
 input: "a" (word being searched) and "a" (string being searched in)
 expect result to be "1"; (result is the number of times word appears in string.)
 
+why: matching one letter seems to be most basic.
+
 input: a and b
 expect result to be 0;
+
+why: checking a fail against one letter seems most basic.
 
 input: a and a b
 expect result to be 1;
 
+why: checking a search between different letters is simple.
+
 input: a and a a
 expect result to be 2;
+
+why: checking a search between two of the same letters is simple.
 
 input: ab and ab
 expect result to be 1;
 
+why: checking a search against a two letter word is about as reductionist as you can get for multi-character word.
+
 input: ab and ba
 expect result to be 0;
+
+why: checking a fail against a two letter word seems the most basic way to go.
 
 input: ab and ab ba ab
 expect result to be 2;
 
+why: checking a matching search among multiple words with two letters is really pretty simple.
+
 input: ab and ba da ca
 expect result to be 0;
 
+why: checking a fail search among multiple two-character words is basic.
+
 input: Ab and bA DA aB
 expect result to be 1;
+
+why: two letter words with varied letters capitalized is the simplest way to check if the strtolower function is working. 
