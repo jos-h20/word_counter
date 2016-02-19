@@ -22,7 +22,7 @@
             //Act: runs the actual method that we are testing.
             $result = $test_RepeatCounter->countRepeats($word_searched,$string_searched);
             //Assert tells our tests what to expect from the output of our method.
-            $this->assertEquals(1, $result);
+            $this->assertEquals(0, $result);
         }
 
     }
