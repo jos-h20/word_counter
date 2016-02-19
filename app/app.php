@@ -21,8 +21,6 @@
 
         $results = $counter->countRepeats($input_word, $input_string);
 
-
-
         return $app['twig']->render('result.html.twig', array(
             'results' => $results,
             'word' => $input_word

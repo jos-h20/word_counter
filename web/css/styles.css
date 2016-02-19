@@ -1,0 +1,57 @@
+
+body {
+    background-color: #666E6E;
+    color: lightgray;
+}
+a:link {
+    color: white;
+}
+.jumbotron {
+    background-size: auto;
+    background-image: url("../img/jumbotron.jpg");
+    color: white;
+    padding-left: 20px;
+    height: 350px;
+    min-height: 100%
+}
+.form {
+    font-size: 27px;
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 20px;
+    margin-top: 200px;
+    background-color: #E0E2E2;
+    color: black;
+}
+#string {
+    width: 330px;
+}
+.word_display {
+    font-size: 40px;
+}
+.btn {
+    width: 330px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    padding-bottom: 20px;
+    background-color: #E0E2E2;
+
+
+}
+.result {
+    margin-top: 300px;
+    font-size: 60px;
+    text-align: right;
+}
+.number {
+    margin-top: 200px;
+    background-image: url("../img/result.jpg");
+    color: white;
+    font-size: 200px;
+    text-align: center;
+    height: 320px;
+    border-radius: 10px;
+
+}
